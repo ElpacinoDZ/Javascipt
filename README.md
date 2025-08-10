@@ -1,29 +1,27 @@
-# Jeu de mots en JavaScript
+# Jeu de mots ou de phrases en JavaScript
 
-Ce projet est un petit jeu de saisie de mots en JavaScript. 
-L'utilisateur doit entrer des mots spécifiques pour gagner des points. Le jeu se joue dans le navigateur via la console.
+Ce projet est un jeu interactif en JavaScript où l'utilisateur peut choisir de jouer avec une liste de mots ou une liste de phrases. Le but est de saisir correctement chaque mot ou chaque phrase proposé.
 
 ## Fonctionnement
 
-- Une liste de mots est définie (`Cachalot`, `Pétunia`, `Serviette` et plus).
-- À chaque tour, l'utilisateur doit entrer un mot dans une boîte de dialogue.
-- Si le mot est correct, le score augmente.
-- Si le mot est incorrect, un message d'erreur s'affiche.
-- L'utilisateur peut arrêter le jeu en tapant `stop`.
-- Le score final est affiché à la fin.
+- L'utilisateur choisit de jouer avec les mots (`1`) ou avec les phrases (`2`).
+- Une liste adaptée est sélectionnée selon le choix.
+- Pour chaque élément de la liste, l'utilisateur doit le saisir exactement comme affiché.
+- À chaque bonne réponse, le score augmente.
+- Le score est affiché après chaque tentative et à la fin du jeu.
 
-## Installation
+## Installation et utilisation
 
-1. Clone ce dépôt :
+1. Clone le dépôt :
    ```sh
    git clone https://github.com/ton-utilisateur/nom-du-repo.git
    ```
-2. Ouvre le fichier `index.html` dans ton navigateur.
+2. Ouvre le fichier `index.html` dans ton navigateur (le script doit être inclus dans la page).
+3. Suis les instructions dans les boîtes de dialogue.
 
 ## Fichiers
 
-- [`app-javascript.js`](app-javascript.js) : le code du jeu.
-- [`index.html`](index.html) : la page HTML pour lancer le jeu.
+- `app-javascript.js` : le code principal du jeu.
 
 ## Auteur
 
