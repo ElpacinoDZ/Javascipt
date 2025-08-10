@@ -24,3 +24,7 @@ L'utilisateur doit entrer des mots spécifiques pour gagner des points. Le jeu s
 
 - [`app-javascript.js`](app-javascript.js) : le code du jeu.
 - [`index.html`](index.html) : la page HTML pour lancer le jeu.
+
+## Auteur
+
+El_pacinoDZ
